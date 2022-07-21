@@ -26,7 +26,7 @@ export const aboutData = [
   {
     f_name: "Travel",
     l_name: "Card",
-    image: require("../../images/travelcard.jpg"),
+    image: require("../../images/travelcardphone.jpg"),
     question: `Do you travel too often?`,
     desc: `Get benefits from TravelCard credit system, to redeem attractive offers throughout your next journey.`,
     class: "aboutcard-wrapper-reverse",
