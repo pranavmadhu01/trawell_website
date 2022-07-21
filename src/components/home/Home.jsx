@@ -2,6 +2,7 @@ import "./Home.css";
 import { FcAndroidOs } from "react-icons/fc";
 import welcomeimageone from "../../images/welcomeimage.jpeg";
 import welcomeimagetwo from "../../images/welcomeimage1.jpeg";
+import welcomeimagethree from "../../images/woelcomeimagethree.jpg"
 import { BsApple } from "react-icons/bs";
 
 export default function Home() {
@@ -23,8 +24,9 @@ export default function Home() {
           height: "100%",
         }}
       >
-        <img src={welcomeimageone} className="welcome-image welcomeone"></img>
-        <img src={welcomeimagetwo} className="welcome-image welcometwo"></img>
+        {/* <img src={welcomeimageone} className="welcome-image welcomeone"></img>
+        <img src={welcomeimagetwo} className="welcome-image welcometwo"></img> */}
+        <img src={welcomeimagethree} alt="" className="welcome-image welcometwo"/>
       </div>
       <div>
         

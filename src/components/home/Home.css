@@ -34,7 +34,7 @@
   animation: welcome-image-animation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-direction: alternate; 
   animation-play-state: running;
 }
 .welcomeone {
@@ -45,7 +45,10 @@
 .welcometwo {
   top: 30%;
   right: 20%;
-  box-shadow: 0px 0px 20px 0px #3e97c9;
+  width:500px;
+  height:500px;
+  object-fit: cover;
+  /* box-shadow: 0px 0px 20px 0px #3e97c9; */
 
   animation-delay: 2s;
 }

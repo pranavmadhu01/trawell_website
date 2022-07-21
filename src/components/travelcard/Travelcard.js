@@ -1,6 +1,6 @@
 import React from "react";
 import "./Travelcard.css";
-import travelcard from "../../images/travelcard.jpeg";
+import travelcard from "../../images/travelcard.jpg";
 
 export default function Travelcard() {
   return (
