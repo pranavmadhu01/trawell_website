@@ -12,9 +12,14 @@ function Productadd() {
   const [message, setMessage] = useState("");
 
   let handleSubmit = async (e) => {
+    setitemName("");
+    setImg("");
+    setDescription("");
+    setLocation("");
+    setPrice("");
     e.preventDefault();
     try {
-      let res = await fetch("http://192.168.211.247:8080/addItem", {
+      let res = await fetch(`${process.env.REACT_APP_API_KEY}addItem`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

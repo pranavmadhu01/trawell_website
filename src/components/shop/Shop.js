@@ -7,7 +7,8 @@ const UsingFetch = () => {
   const [items, setItems] = useState([]);
 
   const fetchData = () => {
-    fetch(`http://192.168.211.247:8080/allItems`)
+    fetch(`${process.env.REACT_APP_API_KEY}allItems`,
+    {mode:'cors'})
       .then((response) => {
         return response.json();
       })
